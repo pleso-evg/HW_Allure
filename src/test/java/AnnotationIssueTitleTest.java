@@ -8,7 +8,7 @@ public class AnnotationIssueTitleTest extends TestBase {
     private static final String issue = "ignores extra closing brackets";
 
     @Test
-    public void AnnotationIssueSearch() {
+    public void annotationIssueSearch() {
         SelenideLogger.addListener("allure", new AllureSelenide());
         AnnotationSteps steps = new AnnotationSteps();
 
