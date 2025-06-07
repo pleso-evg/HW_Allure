@@ -15,7 +15,7 @@ public class LambdaIssueTitleTest extends TestBase {
     private static final String issue = "Question about unification parameter";
 
     @Test
-    public void LambdaIssueSearch() {
+    public void lambdaIssueSearch() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Открываем главную страницу", () -> {
