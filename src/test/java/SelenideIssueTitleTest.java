@@ -11,7 +11,7 @@ import static org.openqa.selenium.By.linkText;
 public class SelenideIssueTitleTest extends TestBase {
 
     @Test
-    public void SelenideIssueSearch () {
+    public void selenideIssueSearch () {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         open("/");
